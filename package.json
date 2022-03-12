@@ -1,0 +1,24 @@
+{
+  "name": "create-a-ci-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thabo-lebelo/create-a-ci-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thabo-lebelo/create-a-ci-pipeline/issues"
+  },
+  "homepage": "https://github.com/thabo-lebelo/create-a-ci-pipeline#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
