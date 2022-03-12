@@ -24,7 +24,7 @@ jobs:
       - name: Build and Push docker image to AWS ECR
         id: build-image
         env: 
-          ECR_REGISTRY: $ {{ steps.login-ecr.outputs.registry }}
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           ECR_REPOSITORY: create-a-ci-pipeline
           IMAGE_TAG: latest
         run: |
