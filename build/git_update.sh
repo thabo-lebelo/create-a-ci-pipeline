@@ -59,3 +59,7 @@ if [ -z "$NEEDS_TAG" ]; then
 else
   echo "Already a tag on this commit"
 fi
+
+echo ::set-output name=git-tag::$NEW_TAG
+
+exit 0
